@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><span id="p1-score">0</span> to <span id="p2-score">0</span></h1>
+    <h1 id="head"><span>Ping</span>-<span>Pong</span> Score Keeper</h1>
+<div class="section">
+    <img src="img.jpg" alt="Ping-Pong">
+    <h1 id="score"><span id="p1-score">0</span> to <span id="p2-score">0</span></h1>
+    <div class="limit-take">
+        <h3>Playing to</h3>
     <select name="" id="max-limit">
         <option value="5">5</option>
         <option value="6">6</option>
@@ -17,9 +22,14 @@
         <option value="9">9</option>
         <option value="10">10</option>
     </select>
+</div>
+    <div class="buttons">
     <button id="p1-button">+1 Player One</button>
-    <button id="p2-button">+2 Player Two</button>
     <button id="reset">Reset</button>
+    <button id="p2-button">+1 Player Two</button>
+    
+    </div>
+</div>
 
     <script src="app.js"></script>
 </body>
