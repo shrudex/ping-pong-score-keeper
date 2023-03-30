@@ -10,6 +10,9 @@ The game has the following features:
 + Selecting the maximum points to play
 + Keeping track of the scores for each player
 + Announcing the winner once one of the players reaches the maximum limit
+
+### Demo
+The project can be viewed here - [Ping-Pong Score Keeper](https://shrudex.github.io/ping-pong-score-keeper/)
 ### Installation
 To run the project, clone the repository to your local machine and open the index.html file in your web browser.
 ```
